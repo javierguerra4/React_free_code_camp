@@ -1,5 +1,8 @@
-ReactDOM.render(<h1>Second try</h1>, document.getElementById("root"));
 ReactDOM.render(
-  <p>This is a test paragraph</p>,
+  <ul>
+    <h1>Groceries</h1>
+    <li>milk</li>
+    <li>eggs</li>
+  </ul>,
   document.getElementById("root")
 );
