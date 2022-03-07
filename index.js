@@ -39,7 +39,7 @@ function Page() {
         <li>I want to make cool websites</li>
       </ol>
       <footer>
-        <p>© 2022 Guerra development. All rights reserved.</p>
+        <small>© 2022 Guerra development. All rights reserved.</small>
       </footer>
     </div>
   );
