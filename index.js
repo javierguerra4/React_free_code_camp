@@ -1,22 +1,26 @@
 /**
-Mini Challenge:
-Move the `header` element from Page into 
-its own component called "Header"
+Challenge: 
+
+- Move the `footer` into its own component called "Footer" 
+  and render that component inside the Page component.
+- Move the `h1` and `ol` together into another component
+  called "MainContent" and render inside Page as well.
 */
 function Header() {
   return (
-    <header>
-      <nav>
-        <img src="images/react_logo.png" width="40px" />
-      </nav>
-    </header>
+    <>
+      <header>
+        <nav>
+          <img src="images/react_logo.png" width="40px" />
+        </nav>
+      </header>
+    </>
   );
 }
 
-function Page() {
+function MainContent() {
   return (
-    <div>
-      <Header />
+    <>
       <h1>Reasons I'm excited to learn React</h1>
       <ol>
         <li>
@@ -24,10 +28,26 @@ function Page() {
         </li>
         <li>I'm more likely to get a job as a developer if I know React</li>
       </ol>
+    </>
+  );
+}
+function Footer() {
+  return (
+    <>
       <footer>
         <small>© 2021 Ziroll development. All rights reserved.</small>
       </footer>
-    </div>
+    </>
+  );
+}
+
+function Page() {
+  return (
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
   );
 }
 
