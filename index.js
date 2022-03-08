@@ -6,20 +6,7 @@ Challenge:
 - Move the `h1` and `ol` together into another component
   called "MainContent" and render inside Page as well.
 */
-function Header() {
-  return (
-    <header className="header-items">
-      <nav className="nav">
-        <img className="logo" src="images/react_logo.png" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+import Header from "./Header";
 
 function Footer() {
   return (
