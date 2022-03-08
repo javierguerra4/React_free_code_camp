@@ -8,9 +8,14 @@ Challenge:
 */
 function Header() {
   return (
-    <header>
-      <nav>
+    <header className="header-items">
+      <nav className="nav">
         <img src="images/react_logo.png" width="40px" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
