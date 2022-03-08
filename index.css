@@ -1,3 +1,6 @@
+body {
+  font-family: "Poiret One", cursive;
+}
 .nav-items {
   list-style: none;
   display: flex;
@@ -8,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav-items > li {
@@ -16,4 +20,12 @@
 
 .logo {
   width: 40px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: 398ad7;
+  font-size: 20px;
 }
